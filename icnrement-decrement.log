@@ -1,0 +1,90 @@
+OfflineAnalaysisManager.createProject 2017-02-17 17:04:25,908 DEBUG    no cell data supplied, checking with experiment date
+OfflineAnalaysisManager.createProject 2017-02-17 17:06:14,203 DEBUG    no cell data supplied, checking with experiment date
+OfflineAnalaysisManager.createProject 2017-02-17 17:06:30,018 DEBUG    no cell data supplied, checking with experiment date
+OfflineAnalaysisManager.parseSymphonyFiles 2017-02-17 17:06:30,094 INFO     parsing h5 file [ C:OfflineAnalaysisManager.parseSymphonyFiles 2017-02-17 17:13:14,112 INFO     saving data set ...
+OfflineAnalaysisManager.preProcess 2017-02-17 17:28:55,223 INFO     pre processing data [ 013117Ac2 ] for function [ @(d)addRstarMean(data.epochs,data.savedFileName) ] 
+OfflineAnalaysisManager.preProcess 2017-02-17 17:28:58,740 INFO     pre processing data [ 013117Ac2 ] for function [ @(d)symphony_v1.util.copySpikeDataFromOldAnalysis(data) ] 
+OfflineAnalaysisManager.preProcess 2017-02-17 17:29:31,024 INFO     pre processing data [ 013117Ac2 ] for function [ @(d)addRstarMean(data.epochs,data.savedFileName) ] 
+OfflineAnalaysisManager.preProcess 2017-02-17 17:34:07,311 INFO     pre processing data [ 013117Ac2 ] for function [ @(d)addRstarMean(data.epochs,data.savedFileName) ] 
+OfflineAnalaysisManager.preProcess 2017-02-17 17:37:34,308 INFO     pre processing data [ 013117Ac2 ] for function [ @(d)symphony_v1.util.copySpikeDataFromOldAnalysis(data) ] 
+OfflineAnalaysisManager.parseSymphonyFiles 2017-02-17 17:45:24,785 INFO     parsing h5 file [ C:OfflineAnalaysisManager.createProject 2017-02-17 19:07:55,106 DEBUG    list of unparsed files [  ]
+OfflineAnalaysisManager.createProject 2017-02-17 19:08:34,038 DEBUG    list of unparsed files [  ]
+OfflineAnalaysisManager.createProject 2017-02-17 19:08:34,147 DEBUG    list of parsed files [ 013117Ac2 ]
+OfflineAnalaysisManager.createProject 2017-02-17 19:09:01,263 DEBUG    list of unparsed files [  ]
+OfflineAnalaysisManager.createProject 2017-02-17 19:09:01,272 DEBUG    list of parsed files [ 013117Ac2 ]
+OfflineAnalaysisManager.createProject 2017-02-17 19:09:03,405 INFO     Project is created under location [ C:OfflineAnalaysisManager.createProject 2017-02-17 19:10:26,301 DEBUG    list of unparsed files [  ]
+OfflineAnalaysisManager.createProject 2017-02-17 19:10:26,311 DEBUG    list of parsed files [ 013117Ac2 ]
+OfflineAnalaysisManager.createProject 2017-02-17 19:10:27,976 INFO     Project is created under location [ C:OfflineAnalaysisManager.createProject 2017-02-17 20:37:11,776 DEBUG    no cell data supplied, checking with experiment date
+OfflineAnalaysisManager.createProject 2017-02-17 20:37:30,346 DEBUG    no cell data supplied, checking with experiment date
+OfflineAnalaysisManager.createProject 2017-02-17 20:38:20,564 DEBUG    no cell data supplied, checking with experiment date
+OfflineAnalaysisManager.createProject 2017-02-17 20:38:57,951 DEBUG    no cell data supplied, checking with experiment date
+OfflineAnalaysisManager.createProject 2017-02-17 20:38:58,050 DEBUG    list of unparsed files [ 31-Jan-2017 ]
+OfflineAnalaysisManager.createProject 2017-02-17 20:39:07,302 DEBUG    no cell data supplied, checking with experiment date
+OfflineAnalaysisManager.createProject 2017-02-17 20:39:07,314 DEBUG    list of unparsed files [ 31-Jan-2017 ]
+OfflineAnalaysisManager.createProject 2017-02-17 20:40:50,365 DEBUG    no cell data supplied, checking with experiment date
+OfflineAnalaysisManager.createProject 2017-02-17 20:40:50,375 DEBUG    list of unparsed files [ 31-Jan-2017 ]
+OfflineAnalaysisManager.createProject 2017-02-17 20:41:01,047 DEBUG    no cell data supplied, checking with experiment date
+OfflineAnalaysisManager.createProject 2017-02-17 20:41:15,257 DEBUG    no cell data supplied, checking with experiment date
+OfflineAnalaysisManager.createProject 2017-02-17 20:41:15,268 DEBUG    list of unparsed files [ 31-Jan-2017 ]
+OfflineAnalaysisManager.createProject 2017-02-17 20:41:24,582 DEBUG    no cell data supplied, checking with experiment date
+OfflineAnalaysisManager.createProject 2017-02-17 20:41:24,592 DEBUG    list of unparsed files [ 31-Jan-2017 ]
+OfflineAnalaysisManager.createProject 2017-02-17 20:43:20,900 DEBUG    list of unparsed files [ abc ]
+OfflineAnalaysisManager.getParsedAndUnParsedFiles 2017-02-17 20:51:38,234 DEBUG    list of unparsed files [ abc ]
+OfflineAnalaysisManager.getParsedAndUnParsedFiles 2017-02-17 20:51:38,348 DEBUG    list of parsed files [ 013117Ac2 ]
+OfflineAnalaysisManager.getParsedAndUnParsedFiles 2017-02-17 20:52:52,864 DEBUG    list of unparsed files [  ]
+OfflineAnalaysisManager.getParsedAndUnParsedFiles 2017-02-17 20:52:52,940 DEBUG    list of parsed files [ 013117Ac2 ]
+OfflineAnalaysisManager.createProject 2017-02-17 20:52:54,516 INFO     Project is created under location [ C:OfflineAnalaysisManager.getParsedAndUnParsedFiles 2017-02-17 20:59:27,068 DEBUG    list of unparsed files [  ]
+OfflineAnalaysisManager.getParsedAndUnParsedFiles 2017-02-17 20:59:27,074 DEBUG    list of parsed files [ 013117Ac2 ]
+OfflineAnalaysisManager.createProject 2017-02-17 20:59:28,662 INFO     Project is created under location [ C:OfflineAnalaysisManager.getParsedAndUnParsedFiles 2017-02-17 20:59:46,894 DEBUG    no cell data supplied, checking with experiment date
+OfflineAnalaysisManager.getParsedAndUnParsedFiles 2017-02-17 20:59:50,609 DEBUG    list of unparsed files [ 013017 ]
+OfflineAnalaysisManager.getParsedAndUnParsedFiles 2017-02-17 21:01:59,474 DEBUG    list of unparsed files [  ]
+OfflineAnalaysisManager.getParsedAndUnParsedFiles 2017-02-17 21:02:03,171 DEBUG    list of parsed files [ 013117Ac2 ]
+OfflineAnalaysisManager.createProject 2017-02-17 21:02:10,288 INFO     Project is created under location [ C:OfflineAnalaysisManager.createProject 2017-02-17 21:02:10,288 INFO     Project is created under location [ C:OfflineAnalaysisManager.getParsedAndUnParsedFiles 2017-02-17 21:03:15,891 DEBUG    list of unparsed files [  ]
+OfflineAnalaysisManager.getParsedAndUnParsedFiles 2017-02-17 21:03:15,904 DEBUG    list of parsed files [ 013117Ac2 ]
+OfflineAnalaysisManager.createProject 2017-02-17 21:03:17,362 INFO     Project is created under location [ C:OfflineAnalaysisManager.preProcess 2017-02-17 21:03:26,176 INFO     pre processing data [ 013117Ac2 ] for function [ @(d)symphony_v1.util.copySpikeDataFromOldAnalysis(data) ] 
+OfflineAnalaysisManager.preProcess 2017-02-17 21:04:07,561 INFO     pre processing data [ 013117Ac2 ] for function [ @(d)symphony_v1.util.copySpikeDataFromOldAnalysis(data) ] 
+OfflineAnalaysisManager.preProcess 2017-02-17 21:04:17,757 INFO     pre processing data [ 013117Ac2 ] for function [ @(d)symphony_v1.util.copySpikeDataFromOldAnalysis(data) ] 
+OfflineAnalaysisManager.getParsedAndUnParsedFiles 2017-02-17 21:05:06,799 DEBUG    list of unparsed files [  ]
+OfflineAnalaysisManager.getParsedAndUnParsedFiles 2017-02-17 21:05:06,804 DEBUG    list of parsed files [ 013117Ac2 ]
+OfflineAnalaysisManager.createProject 2017-02-17 21:05:08,370 INFO     Project is created under location [ C:OfflineAnalaysisManager.preProcess 2017-02-17 21:05:10,091 INFO     pre processing data [ 013117Ac2 ] for function [ @(d)symphony_v1.util.copySpikeDataFromOldAnalysis(d) ] 
+OfflineAnalaysisManager.getParsedAndUnParsedFiles 2017-02-17 21:05:42,541 DEBUG    list of unparsed files [  ]
+OfflineAnalaysisManager.getParsedAndUnParsedFiles 2017-02-17 21:05:42,598 DEBUG    list of parsed files [ 013117Ac2 ]
+OfflineAnalaysisManager.createProject 2017-02-17 21:05:44,153 INFO     Project is created under location [ C:OfflineAnalaysisManager.preProcess 2017-02-17 21:05:47,724 INFO     pre processing data [ 013117Ac2 ] for function [ @(d)symphony_v1.util.copySpikeDataFromOldAnalysis(d) ] 
+OfflineAnalaysisManager.preProcess 2017-02-17 21:07:24,650 INFO     pre processing data [ 013117Ac2 ] for function [ @(d)symphony_v1.util.copySpikeDataFromOldAnalysis(d) ] 
+OfflineAnalaysisManager.preProcess 2017-02-17 21:08:44,657 INFO     pre processing data [ 013117Ac2 ] for function [ @(d)symphony_v1.util.copySpikeDataFromOldAnalysis(d) ] 
+OfflineAnalaysisManager.getParsedAndUnParsedFiles 2017-02-17 21:10:19,296 DEBUG    list of unparsed files [  ]
+OfflineAnalaysisManager.getParsedAndUnParsedFiles 2017-02-17 21:10:19,317 DEBUG    list of parsed files [ 013117Ac2 ]
+OfflineAnalaysisManager.createProject 2017-02-17 21:10:20,921 INFO     Project is created under location [ C:OfflineAnalaysisManager.preProcess 2017-02-17 21:10:20,948 INFO     pre processing data [ 013117Ac2 ] for function [ @(d)symphony_v1.util.copySpikeDataFromOldAnalysis(d) ] 
+OfflineAnalaysisManager.createProject 2017-02-17 21:13:45,960 INFO     creating project [ icnrement-decrement ]
+OfflineAnalaysisManager.getParsedAndUnParsedFiles 2017-02-17 21:13:45,983 DEBUG    list of unparsed files [  ]
+OfflineAnalaysisManager.getParsedAndUnParsedFiles 2017-02-17 21:13:45,991 DEBUG    list of parsed files [ 013117Ac2 ]
+OfflineAnalaysisManager.createProject 2017-02-17 21:13:47,911 INFO     Project is created under location [ C:OfflineAnalaysisManager.createProject 2017-02-17 21:26:47,916 INFO     creating project [ icnrement-decrement ]
+OfflineAnalaysisManager.getParsedAndUnParsedFiles 2017-02-17 21:26:47,935 DEBUG    list of unparsed files [  ]
+OfflineAnalaysisManager.getParsedAndUnParsedFiles 2017-02-17 21:26:47,941 DEBUG    list of parsed files [ 013117Ac2 ]
+OfflineAnalaysisManager.createProject 2017-02-17 21:26:49,590 INFO     Project is created under location [ C:OfflineAnalaysisManager.preProcess 2017-02-17 21:29:15,878 INFO     pre processing data [ 013117Ac2 ] for function [ @(d)symphony_v1.util.copySpikeDataFromOldAnalysis(d) ] 
+Analysis.Analysis 2017-02-17 21:29:20,394 DEBUG    protocol [ icnrement-decrement-analysis-013117Ac2 ] is initialized with builder [ sa_labs.analysis.core.FeatureTreeBuilder ]
+Analysis.service 2017-02-17 21:29:20,397 INFO     started building analysis ...
+OfflineAnalaysisManager.createProject 2017-02-17 23:23:30,852 INFO     creating project [ icnrement-decrement ]
+OfflineAnalaysisManager.getParsedAndUnParsedFiles 2017-02-17 23:23:30,865 DEBUG    list of unparsed files [  ]
+OfflineAnalaysisManager.getParsedAndUnParsedFiles 2017-02-17 23:23:30,869 DEBUG    list of parsed files [ 013117Ac2 ]
+OfflineAnalaysisManager.createProject 2017-02-17 23:23:32,913 INFO     Project is created under location [ C:OfflineAnalaysisManager.createProject 2017-02-17 23:27:00,658 INFO     creating project [ icnrement-decrement ]
+OfflineAnalaysisManager.getParsedAndUnParsedFiles 2017-02-17 23:27:00,670 DEBUG    list of unparsed files [  ]
+OfflineAnalaysisManager.getParsedAndUnParsedFiles 2017-02-17 23:27:00,674 DEBUG    list of parsed files [ 013117Ac2 ]
+OfflineAnalaysisManager.createProject 2017-02-17 23:29:48,714 DEBUG    Project is created under location [ C:OfflineAnalaysisManager.createProject 2017-02-17 23:31:03,456 DEBUG    Project is created under location [ C:OfflineAnalaysisManager.createProject 2017-02-17 23:31:15,307 INFO     Project is created under location [ C:OfflineAnalaysisManager.createProject 2017-02-17 23:31:19,571 TRACE    Project is created under location [ C:OfflineAnalaysisManager.createProject 2017-02-17 23:32:27,832 INFO     Project is created under location [ C:OfflineAnalaysisManager.createProject 2017-02-17 23:33:11,507 INFO     Project is created under location [ C:OfflineAnalaysisManager.createProject 2017-02-17 23:33:26,668 INFO     Project is created under location [ C:OfflineAnalaysisManager.createProject 2017-02-17 23:33:26,668 INFO     Project is created under location [ C:OfflineAnalaysisManager.createProject 2017-02-17 23:33:26,668 INFO     Project is created under location [ C:OfflineAnalaysisManager.createProject 2017-02-17 23:33:26,668 INFO     Project is created under location [ C:OfflineAnalaysisManager.preProcess 2017-02-17 23:42:14,463 INFO     pre processing data [ 013117Ac2 ] for function [ @(d)symphony_v1.util.copySpikeDataFromOldAnalysis(d) ] 
+OfflineAnalaysisManager.createProject 2017-02-18 01:03:36,518 INFO     creating project [ icnrement-decrement ]
+OfflineAnalaysisManager.getParsedAndUnParsedFiles 2017-02-18 01:03:36,564 DEBUG    list of unparsed files [  ]
+OfflineAnalaysisManager.getParsedAndUnParsedFiles 2017-02-18 01:03:36,573 DEBUG    list of parsed files [ 013117Ac2 ]
+OfflineAnalaysisManager.createProject 2017-02-18 01:03:38,352 INFO     Project created !
+OfflineAnalaysisManager.preProcess 2017-02-18 01:03:39,749 INFO     pre processing data [ 013117Ac2 ] for function [ @(d)symphony_v1.util.copySpikeDataFromOldAnalysis(d) ] 
+Analysis.Analysis 2017-02-18 01:05:36,556 DEBUG    protocol [ icnrement-decrement-analysis-013117Ac2 ] is initialized with builder [ sa_labs.analysis.core.FeatureTreeBuilder ]
+Analysis.service 2017-02-18 01:05:36,637 INFO     started building analysis ...
+OfflineAnalaysisManager.createProject 2017-02-18 01:34:02,794 INFO     creating project [ icnrement-decrement ]
+OfflineAnalaysisManager.getParsedAndUnParsedFiles 2017-02-18 01:34:02,818 DEBUG    list of unparsed files [  ]
+OfflineAnalaysisManager.getParsedAndUnParsedFiles 2017-02-18 01:34:02,823 DEBUG    list of parsed files [ 013117Ac2 ]
+OfflineAnalaysisManager.createProject 2017-02-18 01:34:04,514 INFO     Project created !
+OfflineAnalaysisManager.preProcess 2017-02-18 01:34:04,527 INFO     pre processing data [ 013117Ac2 ] for function [ @(d)symphony_v1.util.copyTagsFromOldAnalysis(d) ] 
+OfflineAnalaysisManager.createProject 2017-02-18 01:34:31,943 INFO     creating project [ icnrement-decrement ]
+OfflineAnalaysisManager.getParsedAndUnParsedFiles 2017-02-18 01:34:31,971 DEBUG    list of unparsed files [  ]
+OfflineAnalaysisManager.getParsedAndUnParsedFiles 2017-02-18 01:34:31,983 DEBUG    list of parsed files [ 013117Ac2 ]
+OfflineAnalaysisManager.createProject 2017-02-18 01:34:33,731 INFO     Project created !
+OfflineAnalaysisManager.preProcess 2017-02-18 01:34:33,745 INFO     pre processing data [ 013117Ac2 ] for function [ @(d)symphony_v1.util.copyTagsFromOldAnalysis(d) ] 
