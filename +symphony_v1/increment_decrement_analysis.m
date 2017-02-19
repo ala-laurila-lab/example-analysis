@@ -36,7 +36,9 @@ offlineAnalysisManager.preProcess(data, preProcessors, 'enabled', [false, true])
 analysisPreset = struct();
 analysisPreset.type = 'icnrement-decrement-analysis';
 analysisPreset.buildTreeBy = {'EpochGroup', 'RstarMean'};
-analysisPreset.RstarMean.featureExtractor = {'@(b, f) extractorFunctions.incrementDecrementAnalysis(b, f)'};
+analysisPreset.RstarMean.featureExtractor = {...
+'@(analysis, group) extractorFunctions.extractFOS(analysis, group)',...
+'@(analysis, group) extractorFunctions.extractPreFiringRate(analysis, group)'};
 
 analysisProtocol = core.AnalysisProtocol(analysisPreset);
 

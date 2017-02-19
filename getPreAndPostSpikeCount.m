@@ -1,4 +1,4 @@
-function [pre, post] = getPreAndPostSpikeCount(cellData, currentEpochGroup, binWidth, recordingOnset, recordingOffset)
+function [pre, post] = getPreAndPostSpikeCount(spikeTimes, currentEpochGroup, binWidth, recordingOnset, recordingOffset)
 
     sampleRate = cellData.epochs(currentEpochGroup(1)).attributes('sampleRate');
     spikeCount = [];

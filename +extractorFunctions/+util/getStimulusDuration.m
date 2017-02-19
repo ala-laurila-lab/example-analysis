@@ -1,7 +1,7 @@
 function duration = getStimulusDuration(featureGroup, varargin)
 
 ip = inputParser;
-ip.addParameter('relativeToStart', false, @islogical);
+ip.addParameter('relativeToStart', true, @islogical);
 ip.addParameter('stimulusUnits', 'ms', @ischar);
 ip.parse(varargin{:});
 relativeToStart = ip.Results.relativeToStart;
