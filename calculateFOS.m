@@ -18,20 +18,19 @@ function fractionCorrect = calculateFOS(preSpikeCount, postSpikeCount, indices)
 
     sumPreTime = sum(preSpikeCount);
     sumPostTime = sum(postSpikeCount);
-    n = numel(indicies) - 1;
+    n = size(preSpikeCount, 1);
     discriminant = @(i)(sumPostTime - sumPreTime + preSpikeCount(i, :) - postSpikeCount(i, :))./n;
 
     % Calculate correlation of the current epoch with the discriminant.
     % Subtract the preFR (meanPreSpikeCount) from the pre- and postSpikeCounts
     % before correlation.
 
-    choices = zeros(1, numel(indicies));
-    n = numel(indicies) - 1;
-
-    for i = indices
-        meanPreSpikeCount = mean(preSpikeCount(i, :));
-        preCorrelation = ( preSpikeCount(i, :) - meanPreSpikeCount ) * discriminant(i)';
-        postCorrelation = ( postSpikeCount(i, :) - meanPreSpikeCount ) * discriminant(i)'; 
+    choices = zeros(1, numel(indices));
+    for i = 1 : numel(indices)
+        epochIndex = indices(i);
+        meanPreSpikeCount = mean(preSpikeCount(epochIndex, :));
+        preCorrelation = (preSpikeCount(epochIndex, :) - meanPreSpikeCount) * discriminant(epochIndex)';
+        postCorrelation = (postSpikeCount(epochIndex, :) - meanPreSpikeCount) * discriminant(epochIndex)'; 
         
         if preCorrelation < postCorrelation
             choices(i) = 1;

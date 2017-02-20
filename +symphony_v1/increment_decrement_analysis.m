@@ -35,14 +35,16 @@ offlineAnalysisManager.preProcess(data, preProcessors, 'enabled', [false, true])
 
 analysisPreset = struct();
 analysisPreset.type = 'icnrement-decrement-analysis';
-analysisPreset.buildTreeBy = {'EpochGroup', 'RstarMean'};
-analysisPreset.RstarMean.featureExtractor = {...
-'@(analysis, group) extractorFunctions.extractFOS(analysis, group)',...
-'@(analysis, group) extractorFunctions.extractPreFiringRate(analysis, group)'};
+analysisPreset.buildTreeBy = {'stimTime', 'epochGroup', 'RstarMean'};
+analysisPreset.stimTime.splitValue = {'20'};
+
+ analysisPreset.RstarMean.featureExtractor = {...
+ '@(analysis, group) extractorFunctions.extractFOS(analysis, group)',...
+ '@(analysis, group) extractorFunctions.extractPreFiringRate(analysis, group)'};
 
 analysisProtocol = core.AnalysisProtocol(analysisPreset);
 
 tic;
-project = offlineAnalysisManager.doAnalysis('icnrement-decrement', analysisProtocol);
+project = offlineAnalysisManager.doAnalysis(IDENTIFIER, analysisProtocol);
 result = project.getAllresult();
 toc;
